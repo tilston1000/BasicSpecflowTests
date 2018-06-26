@@ -12,7 +12,7 @@ Scenario Outline: Successful login with Valid Credentials
 	Then the Success login message should be displayed
 Examples:
 | username    | password    |
-| tilston1001 | ipswich1981 |
+| testuser_1  | test@153 |
 | testuser_2  | test@153    |
 
 Scenario: Successful Logout
